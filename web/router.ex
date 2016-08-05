@@ -7,5 +7,7 @@ defmodule Minimal.Router do
 
   scope "/api", Minimal do
     pipe_through :api
+
+    post "/hello", HelloController, :hello
   end
 end
