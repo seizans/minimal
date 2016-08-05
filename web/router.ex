@@ -1,5 +1,5 @@
 defmodule Minimal.Router do
-  use Minimal.Web, :router
+  use Phoenix.Router
 
   pipeline :api do
     plug :accepts, ["json"]
