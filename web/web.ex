@@ -27,7 +27,6 @@ defmodule Minimal.Web do
       use Phoenix.Controller
 
       import Minimal.Router.Helpers
-      import Minimal.Gettext
     end
   end
 
