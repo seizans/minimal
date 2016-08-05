@@ -50,13 +50,6 @@ defmodule Minimal.Web do
     end
   end
 
-  def channel do
-    quote do
-      use Phoenix.Channel
-      import Minimal.Gettext
-    end
-  end
-
   @doc """
   When used, dispatch to the appropriate controller/view/etc.
   """

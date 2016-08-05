@@ -9,9 +9,7 @@ use Mix.Config
 config :minimal, Minimal.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "/Gt8yOm714lkTdT5ohcu12XTIJPXQU9jyNzom3BuENeCJy0TLhKGyWSOXarKarvi",
-  render_errors: [view: Minimal.ErrorView, accepts: ~w(json)],
-  pubsub: [name: Minimal.PubSub,
-           adapter: Phoenix.PubSub.PG2]
+  render_errors: [view: Minimal.ErrorView, accepts: ~w(json)]
 
 # Configures Elixir's Logger
 config :logger, :console,
